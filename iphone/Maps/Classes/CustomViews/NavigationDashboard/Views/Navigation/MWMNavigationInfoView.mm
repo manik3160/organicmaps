@@ -357,10 +357,13 @@ BOOL defaultOrientation(CGSize const & size)
 - (void)refreshLayout
 {
   dispatch_async(dispatch_get_main_queue(), ^{
+    // Allow more lines for long street names to prevent clipping
     if (UIDeviceOrientationIsLandscape([UIDevice currentDevice].orientation))
-      self.streetNameLabel.numberOfLines = 1;
-    else
       self.streetNameLabel.numberOfLines = 2;
+    else
+      self.streetNameLabel.numberOfLines = 3;
+    // Use word wrapping instead of truncation to display full street names
+    self.streetNameLabel.lineBreakMode = NSLineBreakByWordWrapping;
 
     auto const availableArea = self.availableArea;
     [self animateConstraintsWithAnimations:^{

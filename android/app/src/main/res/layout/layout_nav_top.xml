@@ -18,7 +18,8 @@
     android:background="?cardBackground">
     <RelativeLayout
       android:layout_width="match_parent"
-      android:layout_height="@dimen/nav_street_height"
+      android:layout_height="wrap_content"
+      android:minHeight="@dimen/nav_street_height"
       tools:ignore="UselessParent">
       <TextView
         android:id="@+id/street"
@@ -26,7 +27,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="@dimen/nav_street_left"
-        android:maxLines="2"
+        android:maxLines="3"
+        android:ellipsize="none"
         android:layout_gravity="center_vertical"
         android:gravity="center"
         tools:text="Sample street name.\nLong looooooooong!!!!"/>
