@@ -201,8 +201,10 @@
     <!-- Settings information group in settings screen -->
     <string name="prefs_group_information">Məlumat</string>
     <string name="prefs_group_route">Naviqasiya</string>
-    <string name="pref_zoom_title">Böyütmə düymələri</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">+ və - düymələri xəritədə</string>
     <string name="pref_zoom_summary">Xəritədə göstər</string>
+    <string name="pref_auto_night_in_navigation_title">Qaranlıqda naviqasiya edərkən gecə üslubu</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">Gecə rejimi</string>
     <!-- Generic «Off» string -->
@@ -334,6 +336,12 @@
     <string name="gray">Boz</string>
     <!-- blue gray color -->
     <string name="blue_gray">Mavi-boz</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">Görünüş</string>
+    <!-- Settings "Appearance" category: "Light" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_light">Parlaq</string>
+    <!-- Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_dark">Tünd</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">Milyonlarla istifadəçiyə reklamsız, pulsuz xəritələr hədiyyə edin!</string>
 
@@ -632,8 +640,12 @@
     <string name="bookmarks_empty_list_title">Bu siyahı boşdur</string>
     <string name="bookmarks_empty_list_message">Əlfəcin əlavə etmək üçün xəritədə yerə və sonra ulduz işarəsinə toxunun</string>
     <string name="category_desc_more">…daha çox</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">KMZ ixrac edin</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">GPX ixrac edin</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">GeoJSON ixrac edin</string>
     <string name="delete_list">Siyahını silin</string>
     <string name="speedcams_alert_title">Sürət kameraları</string>
     <string name="place_description_title">Məkan Təsviri</string>
@@ -818,4 +830,12 @@
     <string name="uri_open_location_failed">Məkanı aça biləcək proqram quraşdırılmayıb</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Naviqasiyada avtomatik</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">Sistemə uyğun</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">Şifrə ilə giriş</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">Brauzerdən istifadə edərək giriş</string>
 </resources>

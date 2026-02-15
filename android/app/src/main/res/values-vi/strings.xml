@@ -192,8 +192,10 @@
     <string name="length">Độ dài</string>
     <string name="share_my_location">Chia sẻ Vị trí của tôi</string>
     <string name="prefs_group_route">Điều hướng</string>
-    <string name="pref_zoom_title">Nút Phóng to/Thu nhỏ</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">Nút + và - trên bản đồ</string>
     <string name="pref_zoom_summary">Hiển thị trên màn hình</string>
+    <string name="pref_auto_night_in_navigation_title">Chế độ ban đêm khi điều hướng trong điều kiện thiếu sáng</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">Chế độ ban đêm</string>
     <!-- Generic «Off» string -->
@@ -325,6 +327,12 @@
     <string name="gray">Xám</string>
     <!-- blue gray color -->
     <string name="blue_gray">Xám xanh da trời</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">Giao diện</string>
+    <!-- Settings "Appearance" category: "Light" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_light">Sáng</string>
+    <!-- Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_dark">Tối</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">Tặng bản đồ miễn phí không có quảng cáo cho hàng triệu người dùng!</string>
 
@@ -603,8 +611,12 @@
     <string name="bookmarks_empty_list_title">Danh sách trống</string>
     <string name="bookmarks_empty_list_message">Để thêm dấu trang, hãy nhấn vào một địa điểm trên bản đồ và sau đó nhấn vào biểu tượng dấu sao</string>
     <string name="category_desc_more">…thêm</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">Xuất KMZ</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">Xuất GPX</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">Xuất GeoJSON</string>
     <string name="delete_list">Xóa danh sách</string>
     <string name="speedcams_alert_title">Tăn tốc độ máy ảnh</string>
     <string name="place_description_title">Mô tả Địa điểm</string>
@@ -798,4 +810,12 @@
     <string name="uri_open_location_failed">Không có ứng dụng nào được cài đặt có thể mở vị trí</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Tự động điều hướng</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">Theo hệ thống</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">Đăng nhập bằng mật khẩu</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">Đăng nhập bằng trình duyệt</string>
 </resources>

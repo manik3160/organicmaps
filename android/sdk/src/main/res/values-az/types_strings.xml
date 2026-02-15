@@ -331,6 +331,7 @@
     <string name="type.cuisine.tea">Çay</string>
     <string name="type.cuisine.thai">Tay mətbəxi</string>
     <string name="type.cuisine.turkish">Türk mətbəxi</string>
+    <string name="type.cuisine.uzbek">Özbək</string>
     <string name="type.cuisine.vegan">Vegan mətbəxi</string>
     <string name="type.cuisine.vegetarian">Vegetarian mətbəxi</string>
     <string name="type.cuisine.vietnamese">Vyetnam mətbəxi</string>
@@ -797,6 +798,8 @@
     <string name="type.railway.construction">Dəmir yolu tikintisi</string>
     <string name="type.railway.crossing">Dəmiryol kəsişməsi</string>
     <string name="type.railway.disused">Istifadəsiz dəmir yolu</string>
+    <string name="type.railway.disused.bridge">İstifadəsiz dəmir yolu körpüsü</string>
+    <string name="type.railway.disused.tunnel">İstifadəsiz dəmir yolu tuneli</string>
     <string name="type.railway.funicular">Funikulyor</string>
     <string name="type.railway.funicular.bridge">Funikulyor</string>
     <string name="type.railway.funicular.tunnel">Funikulyor</string>

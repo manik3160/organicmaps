@@ -201,8 +201,10 @@
     <!-- Settings information group in settings screen -->
     <string name="prefs_group_information">Informació</string>
     <string name="prefs_group_route">Navegació</string>
-    <string name="pref_zoom_title">Botons de zoom</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">Botons «+» i «-» al mapa</string>
     <string name="pref_zoom_summary">Mostra\'ls al mapa</string>
+    <string name="pref_auto_night_in_navigation_title">Estil nocturn quan es navega en la foscor</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">Mode nocturn</string>
     <!-- Generic «Off» string -->
@@ -336,6 +338,12 @@
     <string name="gray">Gris</string>
     <!-- blue gray color -->
     <string name="blue_gray">Gris blavós</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">Aspecte</string>
+    <!-- Settings "Appearance" category: "Light" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_light">Clar</string>
+    <!-- Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_dark">Fosc</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">Regala mapes gratuïts sense anuncis a milions d\'usuaris!</string>
 
@@ -647,8 +655,12 @@
     <string name="bookmarks_empty_list_title">Aquesta llista és buida</string>
     <string name="bookmarks_empty_list_message">Per a afegir un marcador, toqueu un lloc en el mapa i després toqueu la icona d\'estrella</string>
     <string name="category_desc_more">…més</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">Exporta KMZ</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">Exporta GPX</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">Exporta GeoJSON</string>
     <string name="delete_list">Suprimeix la llista</string>
     <string name="speedcams_alert_title">Radars</string>
     <string name="place_description_title">Descripció del lloc</string>
@@ -774,7 +786,7 @@
     <!-- Instagram account url for the "?" About page -->
     <string name="instagram_url">https://www.instagram.com/organicmaps.app</string>
     <!-- A link to the TTS FAQ -->
-    <string name="tts_info_link">https://organicmaps.app/faq/text-to-speech-android-tts/</string>
+    <string name="tts_info_link">https://organicmaps.app/ca/faq/voice/text-to-speech-android-tts/</string>
     <!-- Include only languages supported on the website, add new translations here: https://github.com/organicmaps/website/tree/master/content -->
     <string name="translated_om_site_url">https://organicmaps.app/ca/</string>
     <!-- Link to OSM wiki for Editor, Profile and About pages -->
@@ -869,4 +881,12 @@
     <string name="uri_open_location_failed">No hi ha cap aplicació instal·lada que pugui obrir la ubicació</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Auto a la navegació</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">Segueix el sistema</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">Inicieu la sessió amb contrasenya</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">Inicieu la sessió mitjançant el navegador</string>
 </resources>

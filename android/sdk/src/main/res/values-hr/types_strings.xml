@@ -36,8 +36,10 @@
 
     <!-- SECTION: Types: Recycling -->
     <string name="type.barrier.block">Blok</string>
+    <string name="type.cuisine.uzbek">Uzbečka</string>
 
     <!-- SECTION: Types: Historic -->
+    <string name="type.railway.disused.tunnel">Nekorišteni željeznički tunel</string>
     <string name="type.barrier.jersey_barrier">Blok</string>
     <string name="type.barrier.debris">Ruševina</string>
     <string name="type.amenity.boat_rental">Iznajmljivanje čamaca</string>

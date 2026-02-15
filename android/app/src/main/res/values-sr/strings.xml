@@ -201,8 +201,10 @@
     <!-- Settings information group in settings screen -->
     <string name="prefs_group_information">Информације</string>
     <string name="prefs_group_route">Навигација</string>
-    <string name="pref_zoom_title">Дугме за зумирање</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">Дугмад „+” и „-” на мапи</string>
     <string name="pref_zoom_summary">Прикажи на мапи</string>
+    <string name="pref_auto_night_in_navigation_title">Ноћни стил приликом навигације у мраку</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">Ноћни режим</string>
     <!-- Generic «Off» string -->
@@ -336,6 +338,12 @@
     <string name="gray">Сива</string>
     <!-- blue gray color -->
     <string name="blue_gray">Плаво сива</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">Изглед</string>
+    <!-- Settings "Appearance" category: "Light" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_light">Светло</string>
+    <!-- Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_dark">Тамно</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">Поклоните бесплатне мапе без огласа милионима корисника!</string>
 
@@ -637,8 +645,12 @@
     <string name="bookmarks_empty_list_title">Ова листа је празна</string>
     <string name="bookmarks_empty_list_message">Да бисте додали маркер, кратко додирните место на мапи, а онда додирните иконицу са звездом</string>
     <string name="category_desc_more">…више</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">Експортуј KMZ</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">Експортуј GPX</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">Експортуј GeoJSON</string>
     <string name="delete_list">Обриши листу</string>
     <string name="speedcams_alert_title">Прекршајне камере</string>
     <string name="place_description_title">Опис места</string>
@@ -855,4 +867,12 @@
     <string name="uri_open_location_failed">Нема инсталираних апликација које могу да отворе локацију.</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Аутоматски у навигацији</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">Прати систем</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">Пријава са лозинком</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">Пријава преко прегледача</string>
 </resources>

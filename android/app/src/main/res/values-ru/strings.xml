@@ -201,8 +201,10 @@
     <!-- Settings information group in settings screen -->
     <string name="prefs_group_information">Информация</string>
     <string name="prefs_group_route">Навигация</string>
-    <string name="pref_zoom_title">Кнопки масштаба</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">Кнопки «+» и «-» на карте</string>
     <string name="pref_zoom_summary">Показать на карте</string>
+    <string name="pref_auto_night_in_navigation_title">Ночной стиль при навигации в темноте</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">Ночной режим</string>
     <!-- Generic «Off» string -->
@@ -336,6 +338,12 @@
     <string name="gray">Серый</string>
     <!-- blue gray color -->
     <string name="blue_gray">Серо-голубой</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">Оформление</string>
+    <!-- Settings "Appearance" category: "Light" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_light">Светлое</string>
+    <!-- Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_dark">Темное</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">Подарите миллионам пользователей бесплатные карты без рекламы!</string>
 
@@ -648,8 +656,12 @@
     <string name="bookmarks_empty_list_title">Список пустой</string>
     <string name="bookmarks_empty_list_message">Чтобы добавить метку, нажмите на место на карте, а затем на иконку звёздочки</string>
     <string name="category_desc_more">…ещё</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">Экспорт KMZ</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">Экспорт GPX</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">Экспорт GeoJSON</string>
     <string name="delete_list">Удалить список</string>
     <string name="speedcams_alert_title">Камеры скорости</string>
     <string name="place_description_title">Описание места</string>
@@ -780,7 +792,7 @@
     <!-- Instagram account url for the "?" About page -->
     <string name="instagram_url">https://www.instagram.com/organicmaps.app</string>
     <!-- A link to the TTS FAQ -->
-    <string name="tts_info_link">https://organicmaps.app/ru/faq/синтез-речи-tts-на-android/</string>
+    <string name="tts_info_link">https://organicmaps.app/ru/faq/voice/text-to-speech-android-tts/</string>
     <!-- Include only languages supported on the website, add new translations here: https://github.com/organicmaps/website/tree/master/content -->
     <string name="translated_om_site_url">https://organicmaps.app/ru/</string>
     <!-- Link to OSM wiki for Editor, Profile and About pages -->
@@ -875,8 +887,16 @@
     <string name="uri_open_location_failed">Не установлено приложение, которое может открыть местоположение</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Авто в навигации</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">Как в системе</string>
     <!-- Title of the bottom sheet when sharing the track -->
     <string name="share_track">Поделиться треком</string>
     <!-- Title for the dialog when deleting a track with the track name passed in %@ -->
     <string name="delete_track_dialog_title">Удалить %s?</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">Вход с паролем</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">Вход в систему с помощью браузера</string>
 </resources>

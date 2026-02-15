@@ -201,8 +201,10 @@
     <!-- Settings information group in settings screen -->
     <string name="prefs_group_information">Information</string>
     <string name="prefs_group_route">Navigation</string>
-    <string name="pref_zoom_title">Zoom-Tasten</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">„+“ und „-“ Knöpfe auf der Karte</string>
     <string name="pref_zoom_summary">Auf der Karte anzeigen</string>
+    <string name="pref_auto_night_in_navigation_title">Nacht-Stil beim Navigieren im Dunkeln</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">Nachtmodus</string>
     <!-- Generic «Off» string -->
@@ -218,15 +220,15 @@
     <!-- A message in Settings/Preferences explaining why is it not possible to enable 3D buildings when max power saving mode is enabled -->
     <string name="pref_map_3d_buildings_disabled_summary">3D-Gebäude werden im Energiesparmodus ausgeschaltet</string>
     <!-- Settings «Route» category: «Tts enabled» title -->
-    <string name="pref_tts_enable_title">Sprachführung</string>
+    <string name="pref_tts_enable_title">Sprachanweisungen</string>
     <!-- Settings «Route» category: «Tts announce street names» title -->
     <string name="pref_tts_street_names_title">Straßennamen ankündigen</string>
     <!-- Settings «Route» category: «Tts announce street names» description -->
     <string name="pref_tts_street_names_description">Wenn aktiviert, wird der Name der Straße oder Ausfahrt, in die abgebogen werden soll, laut angekündigt.</string>
     <!-- Settings «Route» category: «Tts language» title -->
-    <string name="pref_tts_language_title">Sprache für Sprachführung</string>
+    <string name="pref_tts_language_title">Sprache für Sprachanweisungen</string>
     <!-- Settings «Route» category: «Test Voice Directions» title -->
-    <string name="pref_tts_test_voice_title">Teste Sprachanweisungen (TTS, Text-To-Speech)</string>
+    <string name="pref_tts_test_voice_title">Sprachanweisungen testen(TTS, Text-To-Speech)</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
     <string name="pref_tts_playing_test_voice">Überprüfe die Lautstärke oder die Text-to-speech Einstellungen des Systems, wenn du die Stimme jetzt nicht hörst.</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->
@@ -336,6 +338,12 @@
     <string name="gray">Grau</string>
     <!-- blue gray color -->
     <string name="blue_gray">Graublau</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">Erscheinungsbild</string>
+    <!-- Settings "Appearance" category: "Light" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_light">Hell</string>
+    <!-- Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_dark">Dunkel</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">Schenke Millionen von Nutzern kostenlose und werbefreie Karten!</string>
 
@@ -643,8 +651,12 @@
     <string name="bookmarks_empty_list_title">Die Liste ist leer</string>
     <string name="bookmarks_empty_list_message">Zum Hinzufügen eine Lesezeichens tippen Sie in der Karte auf den Ort und dann unten auf das Sternchen</string>
     <string name="category_desc_more">…mehr</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">KMZ exportieren</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">GPX exportieren</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">GeoJSON exportieren</string>
     <string name="delete_list">Liste löschen</string>
     <string name="speedcams_alert_title">Blitzer</string>
     <string name="place_description_title">Ortsbeschreibung</string>
@@ -662,7 +674,7 @@
     <string name="power_managment_setting_auto">Auto</string>
     <string name="power_managment_setting_manual_max">Maximale Stromsparung</string>
     <!-- Settings/Bookmark Text Placement -->
-    <string name="bookmarks_text_placement_title">Markiere Namen auf der Karte</string>
+    <string name="bookmarks_text_placement_title">Lesezeichenname auf der Karte mit anzeigen</string>
     <string name="bookmarks_text_placement_description">Wenn du zu viele Lesezeichen hast, kann es sein, dass die App langsamer wird, wenn die Namen auf der Karte angezeigt werden.</string>
     <string name="show_to_the_right">Rechts anzeigen</string>
     <string name="show_at_the_bottom">Unten anzeigen</string>
@@ -775,7 +787,7 @@
     <!-- Instagram account url for the "?" About page -->
     <string name="instagram_url">https://www.instagram.com/organicmaps.app</string>
     <!-- A link to the TTS FAQ -->
-    <string name="tts_info_link">https://organicmaps.app/faq/text-to-speech-android-tts/</string>
+    <string name="tts_info_link">https://organicmaps.app/de/faq/voice/text-to-speech-android-tts/</string>
     <!-- Include only languages supported on the website, add new translations here: https://github.com/organicmaps/website/tree/master/content -->
     <string name="translated_om_site_url">https://organicmaps.app/de/</string>
     <!-- Link to OSM wiki for Editor, Profile and About pages -->
@@ -870,8 +882,16 @@
     <string name="uri_open_location_failed">Keine App installiert, die den Speicherort öffnen kann</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Auto in der Navigation</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">Systemeinstellung</string>
     <!-- Title of the bottom sheet when sharing the track -->
     <string name="share_track">Track teilen</string>
     <!-- Title for the dialog when deleting a track with the track name passed in %@ -->
     <string name="delete_track_dialog_title">%s löschen?</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">Anmeldung mit Passwort</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">Anmeldung über den Browser</string>
 </resources>

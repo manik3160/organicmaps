@@ -87,7 +87,7 @@ void MultiGeometry::AddLine(std::initializer_list<geometry::PointWithAltitude> l
   m_lines.back().assign(lst);
 }
 
-void MultiGeometry::AddTimestamps(std::initializer_list<double> lst)
+void MultiGeometry::AddTimestamps(std::initializer_list<TimeInt> lst)
 {
   m_timestamps.emplace_back();
   m_timestamps.back().assign(lst);
@@ -103,11 +103,12 @@ MultiGeometry mergeGeometry(std::vector<MultiGeometry> && aGeometries)
   return merged;
 }
 
-kml::PredefinedColor GetRandomPredefinedColor()
+PredefinedColor GetRandomPredefinedColor()
 {
   // Simple time-based seed instead of random_device is enough.
   static std::mt19937 gen(static_cast<uint8_t>(std::chrono::system_clock::now().time_since_epoch().count()));
   static std::uniform_int_distribution<> distr(1, static_cast<uint8_t>(PredefinedColor::Count) - 1);
   return static_cast<PredefinedColor>(distr(gen));
 }
+
 }  // namespace kml

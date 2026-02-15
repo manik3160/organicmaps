@@ -201,8 +201,10 @@
     <!-- Settings information group in settings screen -->
     <string name="prefs_group_information">信息</string>
     <string name="prefs_group_route">导航</string>
-    <string name="pref_zoom_title">缩放按钮</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">地图上的“+”和“-”按钮</string>
     <string name="pref_zoom_summary">在屏幕上显示</string>
+    <string name="pref_auto_night_in_navigation_title">黑暗中导航时的夜间风格</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">夜间模式</string>
     <!-- Generic «Off» string -->
@@ -336,6 +338,12 @@
     <string name="gray">灰色</string>
     <!-- blue gray color -->
     <string name="blue_gray">蓝灰色</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">外观</string>
+    <!-- Settings "Appearance" category: "Light" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_light">浅色</string>
+    <!-- Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_dark">深色</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">向数百万用户赠送无广告的免费地图！</string>
 
@@ -642,8 +650,12 @@
     <string name="bookmarks_empty_list_title">该列表为空</string>
     <string name="bookmarks_empty_list_message">要添加新书签，请点击对象卡片中的星形图标</string>
     <string name="category_desc_more">…更多</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">导出为 KMZ</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">导出为 GPX</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">导出为 GeoJSON</string>
     <string name="delete_list">删除列表</string>
     <string name="speedcams_alert_title">限速拍照</string>
     <string name="place_description_title">地点说明</string>
@@ -774,7 +786,7 @@
     <!-- Instagram account url for the "?" About page -->
     <string name="instagram_url">https://www.instagram.com/organicmaps.app</string>
     <!-- A link to the TTS FAQ -->
-    <string name="tts_info_link">https://organicmaps.app/faq/text-to-speech-android-tts/</string>
+    <string name="tts_info_link">https://organicmaps.app/zh-Hans/faq/voice/text-to-speech-android-tts/</string>
     <!-- Include only languages supported on the website, add new translations here: https://github.com/organicmaps/website/tree/master/content -->
     <string name="translated_om_site_url">https://organicmaps.app/zh-Hans/</string>
     <!-- Link to OSM wiki for Editor, Profile and About pages -->
@@ -869,8 +881,16 @@
     <string name="uri_open_location_failed">未安装可以打开位置的应用</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">自动导航</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">跟随系统</string>
     <!-- Title of the bottom sheet when sharing the track -->
     <string name="share_track">分享轨迹</string>
     <!-- Title for the dialog when deleting a track with the track name passed in %@ -->
     <string name="delete_track_dialog_title">删除 %s？</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">使用密码登录</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">使用浏览器登录</string>
 </resources>

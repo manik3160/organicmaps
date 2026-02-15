@@ -364,6 +364,7 @@
 "type.cuisine.tea" = "Ceai";
 "type.cuisine.thai" = "Bucătărie tailandeză";
 "type.cuisine.turkish" = "Bucătărie turcă";
+"type.cuisine.uzbek" = "Uzbecă";
 "type.cuisine.vegan" = "Bucătărie vegană";
 "type.cuisine.vegetarian" = "Bucătărie vegetariană";
 "type.cuisine.vietnamese" = "Bucătărie vietnameză";
@@ -908,7 +909,7 @@
 "type.place.city.capital.8" = "Municipiu";
 "type.place.city.capital.9" = "Municipiu";
 "type.place.continent" = "Continent";
-"type.place.country" = "Continent";
+"type.place.country" = "Țară";
 "type.place.county" = "Județ";
 "type.place.farm" = "Fermă";
 "type.place.hamlet" = "Cătun";
@@ -973,6 +974,8 @@
 "type.railway.construction" = "Railway Construction";
 "type.railway.crossing" = "Railway Crossing";
 "type.railway.disused" = "Disused Railway";
+"type.railway.disused.bridge" = "Disused Railway Bridge";
+"type.railway.disused.tunnel" = "Tunel feroviar dezafectat";
 "type.railway.funicular" = "Funicular";
 "type.railway.funicular.bridge" = "Funicular Bridge";
 "type.railway.funicular.tunnel" = "Funicular Tunnel";

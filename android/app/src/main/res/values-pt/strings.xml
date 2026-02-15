@@ -201,8 +201,10 @@
     <!-- Settings information group in settings screen -->
     <string name="prefs_group_information">Informação</string>
     <string name="prefs_group_route">Navegação</string>
-    <string name="pref_zoom_title">Botões de ampliação</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">Botões «+» e «-» no mapa</string>
     <string name="pref_zoom_summary">Mostrar no ecrã</string>
+    <string name="pref_auto_night_in_navigation_title">Estilo noturno quando navega no escuro</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">Modo noturno</string>
     <!-- Generic «Off» string -->
@@ -336,6 +338,12 @@
     <string name="gray">Cinza</string>
     <!-- blue gray color -->
     <string name="blue_gray">Azul-cinza</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">Apresentação</string>
+    <!-- Settings "Appearance" category: "Light" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_light">Tons claros</string>
+    <!-- Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_dark">Tons escuros</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">Ofereça mapas gratuitos e sem anúncios a milhões de utilizadores!</string>
 
@@ -645,8 +653,12 @@
     <string name="bookmarks_empty_list_title">Esta lista está vazia</string>
     <string name="bookmarks_empty_list_message">Para adicionar um favorito, toque num lugar do mapa e em seguida toque no ícone da estrela</string>
     <string name="category_desc_more">…mais</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">Exportar KMZ</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">Exportar GPX</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">Exportar GeoJSON</string>
     <string name="delete_list">Eliminar lista</string>
     <string name="speedcams_alert_title">Radares de velocidade</string>
     <string name="place_description_title">Descrição do local</string>
@@ -777,7 +789,7 @@
     <!-- Instagram account url for the "?" About page -->
     <string name="instagram_url">https://www.instagram.com/organicmaps.app</string>
     <!-- A link to the TTS FAQ -->
-    <string name="tts_info_link">https://organicmaps.app/faq/text-to-speech-android-tts/</string>
+    <string name="tts_info_link">https://organicmaps.app/pt/faq/voice/text-to-speech-android-tts/</string>
     <!-- Include only languages supported on the website, add new translations here: https://github.com/organicmaps/website/tree/master/content -->
     <string name="translated_om_site_url">https://organicmaps.app/pt/</string>
     <!-- Link to OSM wiki for Editor, Profile and About pages -->
@@ -872,8 +884,16 @@
     <string name="uri_open_location_failed">Nenhuma aplicação instalada que possa abrir a localização</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Auto na navegação</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">Seguir o sistema</string>
     <!-- Title of the bottom sheet when sharing the track -->
     <string name="share_track">Compartilhar trilha</string>
     <!-- Title for the dialog when deleting a track with the track name passed in %@ -->
     <string name="delete_track_dialog_title">Excluir %s?</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">Iniciar sessão com palavra-passe</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">Inicie sessão utilizando o browser</string>
 </resources>

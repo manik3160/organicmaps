@@ -201,8 +201,10 @@
     <!-- Settings information group in settings screen -->
     <string name="prefs_group_information">Informasi</string>
     <string name="prefs_group_route">Navigasi</string>
-    <string name="pref_zoom_title">Tombol perbesaran</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">Tombol + dan - pada peta</string>
     <string name="pref_zoom_summary">Tampilkan pada layar</string>
+    <string name="pref_auto_night_in_navigation_title">Gaya malam saat menavigasi dalam gelap</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">Mode Malam</string>
     <!-- Generic «Off» string -->
@@ -334,6 +336,12 @@
     <string name="gray">Abu-abu</string>
     <!-- blue gray color -->
     <string name="blue_gray">Biru Keabu-abuan</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">Tampilan</string>
+    <!-- Settings "Appearance" category: "Light" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_light">Terang</string>
+    <!-- Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_dark">Gelap</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">Hadiahkan peta gratis tanpa iklan untuk jutaan pengguna!</string>
 
@@ -631,8 +639,12 @@
     <string name="bookmarks_empty_list_title">Daftar ini kosong</string>
     <string name="bookmarks_empty_list_message">Untuk menambahkan bookmark, ketuk satu tempat di peta lalu ketuk ikon bintang</string>
     <string name="category_desc_more">…selengkapnya</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">Ekspor KMZ</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">Ekspor GPX</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">Ekspor GeoJSON</string>
     <string name="delete_list">Hapus Daftar</string>
     <string name="speedcams_alert_title">Kamera cepat</string>
     <string name="place_description_title">Deskripsi Tempat</string>
@@ -848,8 +860,16 @@
     <string name="uri_open_location_failed">Tidak ada Aplikasi yang diinstal yang dapat membuka lokasi</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Otomatis dalam navigasi</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">Ikuti sistem</string>
     <!-- Title of the bottom sheet when sharing the track -->
     <string name="share_track">Bagikan Lintasan</string>
     <!-- Title for the dialog when deleting a track with the track name passed in %@ -->
     <string name="delete_track_dialog_title">Hapus %s?</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">Masuk dengan kata sandi</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">Masuk menggunakan Browser</string>
 </resources>

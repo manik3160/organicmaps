@@ -255,6 +255,7 @@
     <string name="type.cuisine.sandwich">सँडविच</string>
     <string name="type.cuisine.seafood">मासळी जेवण</string>
     <string name="type.cuisine.tea">चहा</string>
+    <string name="type.cuisine.uzbek">उझ्बेक</string>
     <string name="type.cuisine.vegetarian">शाकाहारी</string>
     <string name="type.emergency">आणीबाणी</string>
     <string name="type.emergency.assembly_point">आपत्कालीन विधानसभा पॉइंट</string>
@@ -707,6 +708,7 @@
     <string name="type.railway">रेल्वे</string>
     <string name="type.railway.construction">रेल्वेचे बांधकाम</string>
     <string name="type.railway.crossing">रेल्वे ओलांडणी</string>
+    <string name="type.railway.disused.tunnel">वापरात नसलेला रेल्वे बोगदा</string>
     <string name="type.railway.funicular">फ्युनिक्युलर</string>
     <string name="type.railway.funicular.bridge">हवाई रज्जुमार्ग</string>
     <string name="type.railway.funicular.tunnel">हवाई रज्जुमार्ग</string>

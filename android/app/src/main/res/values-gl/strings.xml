@@ -160,7 +160,7 @@
     <!-- Kml file loading failed -->
     <string name="load_kmz_failed">Non se puideron cargar os marcadores. O arquivo podería ter danos ou defectos.</string>
     <!-- Failed to recognize the format of a bookmarks or tracks file. -->
-    <string name="unknown_file_type">A aplicación non recoñece o tipo de arquivo: \n%1$s</string>
+    <string name="unknown_file_type">A aplicación non recoñece o tipo de arquivo:\n%1$s</string>
     <!-- Failed to open a bookmarks or tracks file in Organic Maps. -->
     <string name="failed_to_open_file">Non se puido abrir o arquivo %1$s \n \n%2$s</string>
     <!-- resource for context menu -->
@@ -201,8 +201,10 @@
     <!-- Settings information group in settings screen -->
     <string name="prefs_group_information">Información</string>
     <string name="prefs_group_route">Navegación</string>
-    <string name="pref_zoom_title">Botóns de zum</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">Botóns «+» e «-» no mapa</string>
     <string name="pref_zoom_summary">Mostrar no mapa</string>
+    <string name="pref_auto_night_in_navigation_title">Estilo nocturno ao navegar en escuro</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">Modo nocturno</string>
     <!-- Generic «Off» string -->
@@ -336,6 +338,12 @@
     <string name="gray">Gris</string>
     <!-- blue gray color -->
     <string name="blue_gray">Gris azulado</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">Aspecto</string>
+    <!-- Settings "Appearance" category: "Light" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_light">Claro</string>
+    <!-- Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_dark">Escuro</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">Regala mapas gratuítos e sen anuncios a millóns de usuarios!</string>
 
@@ -639,8 +647,12 @@
     <string name="bookmarks_empty_list_title">Esta lista está baleira</string>
     <string name="bookmarks_empty_list_message">Para engadir un marcador, toque un lugar no mapa e despois toque a icona da estrela</string>
     <string name="category_desc_more">…máis</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">Exportar KMZ</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">Exportar GPX</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">Exportar GeoJSON</string>
     <string name="delete_list">Eliminar lista</string>
     <string name="speedcams_alert_title">Cámaras de velocidade</string>
     <string name="place_description_title">Descrición do lugar</string>
@@ -766,7 +778,7 @@
     <!-- Instagram account url for the "?" About page -->
     <string name="instagram_url">https://www.instagram.com/organicmaps.app</string>
     <!-- A link to the TTS FAQ -->
-    <string name="tts_info_link">https://organicmaps.app/faq/text-to-speech-android-tts/</string>
+    <string name="tts_info_link">https://organicmaps.app/gl/faq/voice/text-to-speech-android-tts/</string>
     <!-- Include only languages supported on the website, add new translations here: https://github.com/organicmaps/website/tree/master/content -->
     <string name="translated_om_site_url">https://organicmaps.app/gl/</string>
     <!-- Link to OSM wiki for Editor, Profile and About pages -->
@@ -859,4 +871,12 @@
     <string name="uri_open_location_failed">Non hai ningunha aplicación instalada que poida abrir a localización</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Auto en navegación</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">Seguir o sistema</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">Iniciar sesión con contrasinal</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">Inicio de sesión usando o navegador</string>
 </resources>

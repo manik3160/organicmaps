@@ -201,8 +201,10 @@
     <!-- Settings information group in settings screen -->
     <string name="prefs_group_information">Informații</string>
     <string name="prefs_group_route">Navigare</string>
-    <string name="pref_zoom_title">Butoane zoom</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">Butoanele „+” și „-” pe hartă</string>
     <string name="pref_zoom_summary">Arată pe hartă</string>
+    <string name="pref_auto_night_in_navigation_title">Stil de noapte atunci când navigați în întuneric</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">Mod nocturn</string>
     <!-- Generic «Off» string -->
@@ -336,6 +338,12 @@
     <string name="gray">Gri</string>
     <!-- blue gray color -->
     <string name="blue_gray">Gri albăstriu</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">Aspect</string>
+    <!-- Settings "Appearance" category: "Light" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_light">Luminos</string>
+    <!-- Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_dark">Întunecat</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">Oferiți hărți gratuite fără reclame pentru milioane de utilizatori!</string>
 
@@ -638,8 +646,12 @@
     <string name="bookmarks_empty_list_title">Lista este goală</string>
     <string name="bookmarks_empty_list_message">Pentru a adăuga un loc preferat, ține apăsat un loc pe hartă și după aceea atinge simbolul în formă de stea</string>
     <string name="category_desc_more">…mai mult</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">Export KMZ</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">Exportați GPX</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">Export GeoJSON</string>
     <string name="delete_list">Șterge lista</string>
     <string name="speedcams_alert_title">Radare</string>
     <string name="place_description_title">Descrierea locului</string>
@@ -853,6 +865,14 @@
     <string name="uri_open_location_failed">Nu există nicio aplicație instalată care să poată deschide locația</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Auto în navigație</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">Urmează sistemul</string>
     <!-- Title for the dialog when deleting a track with the track name passed in %@ -->
     <string name="delete_track_dialog_title">Ștergeți %s?</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">Autentificare cu parolă</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">Conectare folosind browserul</string>
 </resources>

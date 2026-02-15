@@ -95,7 +95,7 @@
     <!-- Error moving map files from one storage to another -->
     <string name="move_maps_error">Kunne ikke flytte kart</string>
     <!-- Ask user to wait several minutes (some long process in modal dialog). -->
-    <string name="wait_several_minutes">Dette kan ta flere minutter. Vent et øyeblikk …</string>
+    <string name="wait_several_minutes">Dette kan ta flere minutter.\nVent et øyeblikk …</string>
     <!-- Measurement units title in settings activity -->
     <string name="measurement_units">Måleenheter</string>
     <!-- Detailed description of Measurement Units settings button -->
@@ -201,8 +201,10 @@
     <!-- Settings information group in settings screen -->
     <string name="prefs_group_information">Informasjon</string>
     <string name="prefs_group_route">Navigasjon</string>
-    <string name="pref_zoom_title">Zoom-knapper</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">Knappene + og - på kartet</string>
     <string name="pref_zoom_summary">Vis på skjermen</string>
+    <string name="pref_auto_night_in_navigation_title">Nattstil når du navigerer i mørket</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">Nattmodus</string>
     <!-- Generic «Off» string -->
@@ -336,6 +338,12 @@
     <string name="gray">Grå</string>
     <!-- blue gray color -->
     <string name="blue_gray">Gråblå</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">Utseende</string>
+    <!-- Settings "Appearance" category: "Light" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_light">Lys</string>
+    <!-- Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_dark">Mørke</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">Gi gratis kart uten reklame til millioner av brukere!</string>
 
@@ -637,8 +645,12 @@
     <string name="bookmarks_empty_list_title">Denne listen er tom</string>
     <string name="bookmarks_empty_list_message">For å legge til et bokmerke, trykk et sted på kartet og trykk så stjerneikonet</string>
     <string name="category_desc_more">…mer</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">Eksporter KMZ</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">Eksporter GPX</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">Eksporter GeoJSON</string>
     <string name="delete_list">Slett liste</string>
     <string name="speedcams_alert_title">Fartskamera</string>
     <string name="place_description_title">Plasser beskrivelse</string>
@@ -852,8 +864,16 @@
     <string name="uri_open_location_failed">Ingen app installert som kan åpne stedet</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Auto i navigasjon</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">Følg systemet</string>
     <!-- Title of the bottom sheet when sharing the track -->
     <string name="share_track">Del spor</string>
     <!-- Title for the dialog when deleting a track with the track name passed in %@ -->
     <string name="delete_track_dialog_title">Slett %s?</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">Logg inn med passord</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">Innlogging ved hjelp av nettleser</string>
 </resources>

@@ -242,6 +242,7 @@
     <string name="type.cuisine.tea">चाय</string>
     <string name="type.cuisine.thai">थाई पकवान</string>
     <string name="type.cuisine.turkish">तुर्की व्यंजन</string>
+    <string name="type.cuisine.uzbek">उज़्बेक</string>
     <string name="type.cuisine.vegan">शाकाहारी</string>
     <string name="type.cuisine.vegetarian">शाकाहारी</string>
     <string name="type.cuisine.vietnamese">वियतनामी व्यंजन</string>
@@ -470,6 +471,7 @@
     <string name="type.power.tower">संचरण स्तम्भ</string>
     <string name="type.public_transport.platform">रेलवे प्लेटफार्म</string>
     <string name="type.railway">रेल</string>
+    <string name="type.railway.disused.tunnel">अप्रयुक्त रेलवे सुरंग</string>
     <string name="type.railway.funicular">रज्जुरेल</string>
     <string name="type.railway.funicular.bridge">रज्जुरेल</string>
     <string name="type.railway.funicular.tunnel">रज्जुरेल</string>

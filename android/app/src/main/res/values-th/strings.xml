@@ -192,8 +192,10 @@
     <string name="length">ระยะเวลา</string>
     <string name="share_my_location">แชร์ตำแหน่งที่ตั้งของฉัน</string>
     <string name="prefs_group_route">การนำทาง</string>
-    <string name="pref_zoom_title">ปุ่มซูม</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">ปุ่ม + และ - บนแผนที่</string>
     <string name="pref_zoom_summary">แสดงบนหน้าจอ</string>
+    <string name="pref_auto_night_in_navigation_title">สไตล์กลางคืนเมื่อนำทางในที่มืด</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">โหมดกลางคืน</string>
     <!-- Generic «Off» string -->
@@ -325,6 +327,12 @@
     <string name="gray">สีเทา</string>
     <!-- blue gray color -->
     <string name="blue_gray">สีฟ้าอมเทา</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">รูปแบบ</string>
+    <!-- Settings "Appearance" category: "Light" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_light">สว่าง</string>
+    <!-- Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_dark">มืด</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">มอบแผนที่ฟรีไม่มีโฆษณาให้แก่ผู้ใช้นับล้าน!</string>
 
@@ -604,8 +612,12 @@
     <string name="bookmarks_empty_list_title">รายการนี้ว่างเปล่า</string>
     <string name="bookmarks_empty_list_message">เพื่อเพิ่มบุ๊กมาร์ก โปรดแตะที่สถานที่บนแผนที่ แล้วจากนั้นแตะที่ไอคอนรูปดาว</string>
     <string name="category_desc_more">…เพิ่มเติม</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">ส่งออก KMZ</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">ส่งออก GPX</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">ส่งออก GeoJSON</string>
     <string name="delete_list">ลบรายการ</string>
     <string name="speedcams_alert_title">กล้องตรวจจับความเร็ว</string>
     <string name="place_description_title">รายละเอียดของสถานที่</string>
@@ -799,4 +811,12 @@
     <string name="uri_open_location_failed">ไม่มีการติดตั้งแอปที่สามารถเปิดตำแหน่งได้</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">อัตโนมัติในการนำทาง</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">ตามระบบ</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">เข้าสู่ระบบด้วยรหัสผ่าน</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">เข้าสู่ระบบโดยใช้เบราว์เซอร์</string>
 </resources>

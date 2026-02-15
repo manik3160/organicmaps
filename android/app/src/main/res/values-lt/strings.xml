@@ -201,8 +201,10 @@
     <!-- Settings information group in settings screen -->
     <string name="prefs_group_information">Informacija</string>
     <string name="prefs_group_route">Navigacija</string>
-    <string name="pref_zoom_title">Mastelio mygtukai</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">Mygtukai „+“ ir „-“ žemėlapyje</string>
     <string name="pref_zoom_summary">Rodyti žemėlapyje</string>
+    <string name="pref_auto_night_in_navigation_title">Naktinis stilius, kai navigacija vykdoma tamsoje</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">Nakties veiksena</string>
     <!-- Generic «Off» string -->
@@ -336,6 +338,12 @@
     <string name="gray">Pilkas</string>
     <!-- blue gray color -->
     <string name="blue_gray">Mėlynai pilkas</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">Išvaizda</string>
+    <!-- Settings "Appearance" category: "Light" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_light">Šviesi</string>
+    <!-- Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_dark">Tamsi</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">Padovanokite nemokamus žemėlapius be skelbimų milijonams vartotojų!</string>
 
@@ -644,8 +652,12 @@
     <string name="bookmarks_empty_list_title">Sąrašas tuščias</string>
     <string name="bookmarks_empty_list_message">Jeigu norite pridėti žymę, bakstelėkite vietą žemėlapyje, o tada – žvaigždutės piktogramą</string>
     <string name="category_desc_more">…daugiau</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">Eksportuoti KMZ</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">Eksportuoti GPX</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">Eksportuoti GeoJSON</string>
     <string name="delete_list">Šalinti sąrašą</string>
     <string name="speedcams_alert_title">Greičio matuokliai</string>
     <string name="place_description_title">Vietos aprašymas</string>
@@ -776,7 +788,7 @@
     <!-- Instagram account url for the "?" About page -->
     <string name="instagram_url">https://www.instagram.com/organicmaps.app</string>
     <!-- A link to the TTS FAQ -->
-    <string name="tts_info_link">https://organicmaps.app/faq/text-to-speech-android-tts/</string>
+    <string name="tts_info_link">https://organicmaps.app/lt/faq/voice/text-to-speech-android-tts/</string>
     <!-- Include only languages supported on the website, add new translations here: https://github.com/organicmaps/website/tree/master/content -->
     <string name="translated_om_site_url">https://organicmaps.app/lt/</string>
     <!-- Link to OSM wiki for Editor, Profile and About pages -->
@@ -871,8 +883,16 @@
     <string name="uri_open_location_failed">Neįdiegta programėlė, galinti atverti vietą</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Automatinė naviguojant</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">Pagal sistemą</string>
     <!-- Title of the bottom sheet when sharing the track -->
     <string name="share_track">Dalintis trasa</string>
     <!-- Title for the dialog when deleting a track with the track name passed in %@ -->
     <string name="delete_track_dialog_title">Šalinti %s?</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">Prisijungimas su slaptažodžiu</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">Prisijungimas naudojant naršyklę</string>
 </resources>

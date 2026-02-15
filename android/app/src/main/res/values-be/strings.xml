@@ -201,8 +201,10 @@
     <!-- Settings information group in settings screen -->
     <string name="prefs_group_information">Інфармацыя</string>
     <string name="prefs_group_route">Навігацыя</string>
-    <string name="pref_zoom_title">Кнопкі маштабавання</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">Кнопкі «+» і «-» на мапе</string>
     <string name="pref_zoom_summary">Адлюстраванне на карце</string>
+    <string name="pref_auto_night_in_navigation_title">Начны стыль пры навігацыі ў цемры</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">Начны рэжым</string>
     <!-- Generic «Off» string -->
@@ -336,6 +338,12 @@
     <string name="gray">Шэры</string>
     <!-- blue gray color -->
     <string name="blue_gray">Блакітна-шэры</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">Выгляд</string>
+    <!-- Settings "Appearance" category: "Light" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_light">Светлы</string>
+    <!-- Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_dark">Цёмны</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">Падарыце бясплатныя мапы без рэкламы мільёнам карыстальнікаў!</string>
 
@@ -650,8 +658,12 @@
     <string name="bookmarks_empty_list_title">Гэты спіс пусты</string>
     <string name="bookmarks_empty_list_message">Каб дадаць закладку, дакраніцеся да месца на карце, а затым націсніце значок зорачкі</string>
     <string name="category_desc_more">…яшчэ</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">Экспарт KMZ</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">Экспарт GPX</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">Экспарт GeoJSON</string>
     <string name="delete_list">Выдаліць спіс</string>
     <string name="speedcams_alert_title">Камеры хуткасці</string>
     <string name="place_description_title">Апісанне месца</string>
@@ -877,8 +889,16 @@
     <string name="uri_open_location_failed">Не ўсталявана праграма, якая можа адкрыць месцазнаходжанне</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Аўто ў навігацыі</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">Як у сістэме</string>
     <!-- Title of the bottom sheet when sharing the track -->
     <string name="share_track">Падзяліцца маршрутам</string>
     <!-- Title for the dialog when deleting a track with the track name passed in %@ -->
     <string name="delete_track_dialog_title">Выдаліць %s?</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">Увайсці з паролем</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">Уваход праз браўзер</string>
 </resources>

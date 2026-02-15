@@ -318,6 +318,7 @@
     <string name="type.cuisine.tea">紅茶</string>
     <string name="type.cuisine.thai">タイ料理</string>
     <string name="type.cuisine.turkish">トルコ料理</string>
+    <string name="type.cuisine.uzbek">ウズベク</string>
     <string name="type.cuisine.vegan">ビーガン料理</string>
     <string name="type.cuisine.vegetarian">ベジタリアン料理</string>
     <string name="type.cuisine.vietnamese">ベトナム料理</string>
@@ -779,6 +780,8 @@
     <string name="type.railway.construction">建設中の鉄道</string>
     <string name="type.railway.crossing">歩行者用踏切</string>
     <string name="type.railway.disused">休止線</string>
+    <string name="type.railway.disused.bridge">休止線(橋)</string>
+    <string name="type.railway.disused.tunnel">休止線(トンネル)</string>
     <string name="type.railway.funicular">フニクラ</string>
     <string name="type.railway.funicular.bridge">ケーブルカー(橋)</string>
     <string name="type.railway.funicular.tunnel">ケーブルカー(トンネル)</string>

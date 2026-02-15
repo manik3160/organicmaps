@@ -295,6 +295,7 @@
     <string name="type.cuisine.tea">Trà</string>
     <string name="type.cuisine.thai">Ẩm thực thái lan</string>
     <string name="type.cuisine.turkish">Ẩm thực thổ nhĩ kỳ</string>
+    <string name="type.cuisine.uzbek">Uzbekistan</string>
     <string name="type.cuisine.vegan">Ẩm thực chay</string>
     <string name="type.cuisine.vegetarian">Ẩm thực chay</string>
     <string name="type.cuisine.vietnamese">Ẩm thực việt</string>
@@ -688,6 +689,7 @@
     <string name="type.power.substation">Trạm biến áp</string>
     <!-- A tower or pylon carrying high voltage electricity cables. -->
     <string name="type.power.tower">Trụ Điện</string>
+    <string name="type.railway.disused.tunnel">Hầm đường sắt ngưng sử dụng</string>
     <string name="type.railway.funicular">Đường sắt leo núi</string>
     <string name="type.railway.halt">Đường tàu hỏa</string>
     <string name="type.railway.level_crossing">Chỗ qua đường sắt</string>

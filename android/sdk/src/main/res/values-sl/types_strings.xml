@@ -334,6 +334,7 @@
     <string name="type.cuisine.tea">Čaj</string>
     <string name="type.cuisine.thai">Tajska</string>
     <string name="type.cuisine.turkish">Turška</string>
+    <string name="type.cuisine.uzbek">Uzbeška</string>
     <string name="type.cuisine.vegan">Veganska</string>
     <string name="type.cuisine.vegetarian">Vegetarijanska</string>
     <string name="type.cuisine.vietnamese">Vietnamska</string>
@@ -803,6 +804,8 @@
     <string name="type.railway.construction">Železnica v gradnji</string>
     <string name="type.railway.crossing">Železniški prehod</string>
     <string name="type.railway.disused">Neuporabljena železnica</string>
+    <string name="type.railway.disused.bridge">Neuporabljen železniški most</string>
+    <string name="type.railway.disused.tunnel">Neuporabljen železniški predor</string>
     <string name="type.railway.funicular">Vzpenjača</string>
     <string name="type.railway.funicular.bridge">Most vzpenjače</string>
     <string name="type.railway.funicular.tunnel">Predor vzpenjače</string>

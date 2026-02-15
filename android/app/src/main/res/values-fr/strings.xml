@@ -85,7 +85,7 @@
     <!-- Header of settings activity where user defines storage path -->
     <string name="maps_storage">Enregistrer les cartes dans</string>
     <!-- Detailed description of Maps Storage settings button -->
-    <string name="maps_storage_summary">Sélectionner l\'emplacement où les cartes seront téléchargées</string>
+    <string name="maps_storage_summary">Sélectionner l\'emplacement où les cartes seront téléchargées.</string>
     <!-- E.g. "Downloaded maps: 500Mb" in Maps Storage settings -->
     <string name="maps_storage_downloaded">Cartes téléchargées</string>
     <!-- Free space out of total storage size in Maps Storage settings, e.g. "300 MB free of 2 GB" -->
@@ -201,8 +201,10 @@
     <!-- Settings information group in settings screen -->
     <string name="prefs_group_information">Information</string>
     <string name="prefs_group_route">Navigation</string>
-    <string name="pref_zoom_title">Boutons de zoom</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">Boutons « + » et « - » sur la carte</string>
     <string name="pref_zoom_summary">Afficher à l\'écran</string>
+    <string name="pref_auto_night_in_navigation_title">Style nocturne lorsque vous naviguez dans l\'obscurité</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">Mode nuit</string>
     <!-- Generic «Off» string -->
@@ -264,7 +266,7 @@
     <!-- Toast text when compass calibration may improve the correctness of the current position arrow -->
     <string name="compass_calibration_required">Déplacez le téléphone en huit pour calibrer la boussole et fixer la direction de la flèche sur la carte.</string>
     <!-- Toast text when user hides UI with a long tap anywhere on the map -->
-    <string name="long_tap_toast">Appuyer à nouveau longuement sur la carte pour voir l\'interface.</string>
+    <string name="long_tap_toast">Appuyer à nouveau longuement sur la carte pour afficher l\'interface</string>
     <!-- Update all button text -->
     <string name="downloader_update_all_button">Tout mettre à jour</string>
     <!-- Cancel all button text -->
@@ -336,6 +338,12 @@
     <string name="gray">Gris</string>
     <!-- blue gray color -->
     <string name="blue_gray">Gris-bleu</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">Apparence</string>
+    <!-- Settings "Appearance" category: "Light" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_light">Claire</string>
+    <!-- Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_dark">Sombre</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">Offrez des cartes gratuites et sans pub à des millions d\'utilisateurs !</string>
 
@@ -645,8 +653,12 @@
     <string name="bookmarks_empty_list_title">Cette liste est vide</string>
     <string name="bookmarks_empty_list_message">Pour ajouter un signet, appuyez sur un lieu sur la carte, puis appuyez sur l\'icône étoile</string>
     <string name="category_desc_more">…plus</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">Exporter KMZ</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">Exporter GPX</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">Exporter GeoJSON</string>
     <string name="delete_list">Supprimer la liste</string>
     <string name="speedcams_alert_title">Radars de vitesse</string>
     <string name="place_description_title">Description d\'endroit</string>
@@ -678,7 +690,7 @@
     <string name="avoid_ferry">Éviter les ferries</string>
     <string name="avoid_motorways">Éviter les autoroutes</string>
     <string name="unable_to_calc_alert_title">Impossible de calculer l\'itinéraire</string>
-    <string name="unable_to_calc_alert_subtitle">Malheureusement, nous n\'avons pas pu créer l\'itinéraire avec les options sélectionnées. Modifiez les paramètres et réessayez</string>
+    <string name="unable_to_calc_alert_subtitle">Un tracé n\'a pu être établi. Cela peut être causé par les options choisies ou des données OpenStreetMap incomplètes. Merci de modifier vos options et de réessayer.</string>
     <string name="define_to_avoid_btn">Définissez les routes à éviter</string>
     <string name="change_driving_options_btn">Paramètres d\'itinéraire activés</string>
     <string name="toll_road">Route à péage</string>
@@ -777,7 +789,7 @@
     <!-- Instagram account url for the "?" About page -->
     <string name="instagram_url">https://www.instagram.com/organicmaps.app</string>
     <!-- A link to the TTS FAQ -->
-    <string name="tts_info_link">https://organicmaps.app/fr/faq/voice/synth%%C3%A8se-vocale-tts-sur-android/</string>
+    <string name="tts_info_link">https://organicmaps.app/fr/faq/voice/text-to-speech-android-tts/</string>
     <!-- Include only languages supported on the website, add new translations here: https://github.com/organicmaps/website/tree/master/content -->
     <string name="translated_om_site_url">https://organicmaps.app/fr/</string>
     <!-- Link to OSM wiki for Editor, Profile and About pages -->
@@ -866,14 +878,22 @@
     <!-- Message for the toast when saving the track recording is finished but nothing to save. -->
     <string name="track_recording_toast_nothing_to_save">L\'itinéraire est vide - il n\'y a rien à sauvegarder</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
-    <string name="error_no_file_manager_app">Impossible d\'afficher la boîte de dialogue de sélection des dossiers car aucune application appropriée n\'est installée sur votre appareil. Veuillez installer une application de gestion de fichiers et réessayer</string>
+    <string name="error_no_file_manager_app">Impossible d\'afficher la boîte de dialogue de sélection des dossiers car aucune application appropriée n\'est installée sur votre appareil. Veuillez installer une application de gestion de fichiers et réessayer.</string>
     <string name="choose_color">Choisir la couleur</string>
     <string name="edit_track">Modifier le trace</string>
     <string name="uri_open_location_failed">Aucune application installée ne permet d\'ouvrir l\'emplacement</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Auto dans la navigation</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">Suivre le système</string>
     <!-- Title of the bottom sheet when sharing the track -->
     <string name="share_track">Partager la piste</string>
     <!-- Title for the dialog when deleting a track with the track name passed in %@ -->
     <string name="delete_track_dialog_title">Supprimer %s ?</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">Connexion avec mot de passe</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">Se connecter à l\'aide d\'un navigateur</string>
 </resources>

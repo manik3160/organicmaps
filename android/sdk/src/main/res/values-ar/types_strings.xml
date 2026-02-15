@@ -341,6 +341,7 @@
     <string name="type.cuisine.tea">شاي</string>
     <string name="type.cuisine.thai">مطبخ تايلندي</string>
     <string name="type.cuisine.turkish">مطبخ تركي</string>
+    <string name="type.cuisine.uzbek">أوزبكي</string>
     <string name="type.cuisine.vegan">خضري</string>
     <string name="type.cuisine.vegetarian">نباتي</string>
     <string name="type.cuisine.vietnamese">مطبخ فيتنامي</string>
@@ -779,6 +780,7 @@
     <string name="type.power.substation">محطة كهرباء فرعية</string>
     <!-- A tower or pylon carrying high voltage electricity cables. -->
     <string name="type.power.tower">عمود كهرباء</string>
+    <string name="type.railway.disused.tunnel">نفق سكة حديدية غير مستخدم</string>
     <string name="type.railway.funicular">حبلي</string>
     <string name="type.railway.halt">محطة قطار</string>
     <string name="type.railway.level_crossing">مزلقان</string>

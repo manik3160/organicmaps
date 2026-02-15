@@ -201,8 +201,10 @@
     <!-- Settings information group in settings screen -->
     <string name="prefs_group_information">מידע</string>
     <string name="prefs_group_route">ניווט</string>
-    <string name="pref_zoom_title">כפתורי זום</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">כפתורי + ו- על המפה</string>
     <string name="pref_zoom_summary">הצג על המסך</string>
+    <string name="pref_auto_night_in_navigation_title">סגנון לילה בעת ניווט בחושך</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">מצב לילה</string>
     <!-- Generic «Off» string -->
@@ -330,6 +332,12 @@
     <string name="gray">אפור</string>
     <!-- blue gray color -->
     <string name="blue_gray">כחול אפרפר</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">מראה</string>
+    <!-- Settings "Appearance" category: "Light" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_light">בהיר</string>
+    <!-- Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_dark">כהה</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">העניקו במתנה מפות חינמיות וללא פרסומות למיליוני משתמשים!</string>
 
@@ -623,8 +631,12 @@
     <string name="bookmarks_empty_list_title">רשימה זו ריקה</string>
     <string name="bookmarks_empty_list_message">כדי להוסיף סימניה, לחץ על מקום במפה ואז לחץ על סימן הכוכב</string>
     <string name="category_desc_more">…עוד</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">ייצא KMZ</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">ייצוא GPX</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">ייצא GeoJSON</string>
     <string name="delete_list">מחק רשימה</string>
     <string name="speedcams_alert_title">מצלמות מהירות</string>
     <string name="place_description_title">תיאור מיקום</string>
@@ -833,4 +845,12 @@
     <string name="uri_open_location_failed">לא מותקנת אפליקציה שיכולה לפתוח את המיקום</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">אוטומטי בניווט</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">לפי הגדרות המערכת</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">התחבר עם סיסמה</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">כניסה באמצעות דפדפן</string>
 </resources>

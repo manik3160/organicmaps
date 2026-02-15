@@ -95,7 +95,7 @@
     <!-- Error moving map files from one storage to another -->
     <string name="move_maps_error">Hiba történt a térképfájlok áthelyezése közben</string>
     <!-- Ask user to wait several minutes (some long process in modal dialog). -->
-    <string name="wait_several_minutes">Ez több percig is eltarthat. \nKis türelmet…</string>
+    <string name="wait_several_minutes">Ez több percig is eltarthat.\nKis türelmet…</string>
     <!-- Measurement units title in settings activity -->
     <string name="measurement_units">Mértékegységek</string>
     <!-- Detailed description of Measurement Units settings button -->
@@ -201,8 +201,10 @@
     <!-- Settings information group in settings screen -->
     <string name="prefs_group_information">Információk</string>
     <string name="prefs_group_route">Navigáció</string>
-    <string name="pref_zoom_title">Nagyítás/kicsinyítés gombok</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">„+” és „-” gombok a térképen</string>
     <string name="pref_zoom_summary">Megjelenítés a térképen</string>
+    <string name="pref_auto_night_in_navigation_title">Éjszakai stílus a sötétben történő navigáláshoz</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">Éjszakai mód</string>
     <!-- Generic «Off» string -->
@@ -214,9 +216,9 @@
     <!-- Settings «Map» category: «Perspective view» title -->
     <string name="pref_map_3d_title">Perspektivikus nézet</string>
     <!-- Settings «Map» category: «3D buildings» title -->
-    <string name="pref_map_3d_buildings_title">3D-s épületek</string>
+    <string name="pref_map_3d_buildings_title">3D épületek</string>
     <!-- A message in Settings/Preferences explaining why is it not possible to enable 3D buildings when max power saving mode is enabled -->
-    <string name="pref_map_3d_buildings_disabled_summary">A 3D-s épületek energiatakarékos módban ki vannak kapcsolva</string>
+    <string name="pref_map_3d_buildings_disabled_summary">A 3D épületek energiatakarékos módban ki vannak kapcsolva</string>
     <!-- Settings «Route» category: «Tts enabled» title -->
     <string name="pref_tts_enable_title">Hangutasítások</string>
     <!-- Settings «Route» category: «Tts announce street names» title -->
@@ -252,7 +254,7 @@
     <string name="donate">Adományozás</string>
     <string name="already_donated">Már adományozott</string>
     <string name="remind_me_later">Emlékeztessen később</string>
-    <string name="support_organic_maps">Támogasd az Organic Maps-et</string>
+    <string name="support_organic_maps">Támogassa az Organic Maps-et</string>
     <!-- Button in the main Help dialog -->
     <string name="how_to_support_us">Támogatás</string>
     <!-- Button in the main Help dialog -->
@@ -336,6 +338,12 @@
     <string name="gray">Szürke</string>
     <!-- blue gray color -->
     <string name="blue_gray">Kékes szürke</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">Megjelenés</string>
+    <!-- Settings "Appearance" category: "Light" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_light">Világos</string>
+    <!-- Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_dark">Sötét</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">Ajándékozzon ingyenes, hirdetésmentes térképeket felhasználók millióinak!</string>
 
@@ -644,8 +652,12 @@
     <string name="bookmarks_empty_list_title">Ez a lista üres</string>
     <string name="bookmarks_empty_list_message">Egy könyvjelző hozzáadásához érintsen meg a térképen egy helyet, majd érintse meg a csillag ikont</string>
     <string name="category_desc_more">…több</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">Exportálás KMZ-fájlba</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">Exportálás GPX-fájlba</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">Exportálás GeoJSON-fájlba</string>
     <string name="delete_list">Lista törlése</string>
     <string name="speedcams_alert_title">Sebességmérő kamerák</string>
     <string name="place_description_title">A hely ismertetése</string>
@@ -776,7 +788,7 @@
     <!-- Instagram account url for the "?" About page -->
     <string name="instagram_url">https://www.instagram.com/organicmaps.app</string>
     <!-- A link to the TTS FAQ -->
-    <string name="tts_info_link">https://organicmaps.app/faq/text-to-speech-android-tts/</string>
+    <string name="tts_info_link">https://organicmaps.app/hu/faq/voice/text-to-speech-android-tts/</string>
     <!-- Include only languages supported on the website, add new translations here: https://github.com/organicmaps/website/tree/master/content -->
     <string name="translated_om_site_url">https://organicmaps.app/hu/</string>
     <!-- Link to OSM wiki for Editor, Profile and About pages -->
@@ -871,8 +883,16 @@
     <string name="uri_open_location_failed">Nincs telepített alkalmazás, amely meg tudja nyitni a helyet</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Automatikus navigáció</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">Rendszer követése</string>
     <!-- Title of the bottom sheet when sharing the track -->
     <string name="share_track">Nyomvonal megosztása</string>
     <!-- Title for the dialog when deleting a track with the track name passed in %@ -->
     <string name="delete_track_dialog_title">Törli %s?</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">Bejelentkezés jelszóval</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">Bejelentkezés böngésző használatával</string>
 </resources>

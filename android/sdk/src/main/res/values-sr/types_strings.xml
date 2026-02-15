@@ -346,6 +346,7 @@
     <string name="type.cuisine.tea">Чај</string>
     <string name="type.cuisine.thai">Тајландска</string>
     <string name="type.cuisine.turkish">Турска</string>
+    <string name="type.cuisine.uzbek">Узбечка</string>
     <string name="type.cuisine.vegan">Веганска</string>
     <string name="type.cuisine.vegetarian">Вегетаријанска</string>
     <string name="type.cuisine.vietnamese">Вијетнамска</string>
@@ -541,8 +542,6 @@
     <string name="type.area_highway.track">Макадам</string>
     <string name="type.area_highway.trunk">Улица</string>
     <string name="type.area_highway.unclassified">Некласификовани пут</string>
-    <string name="type.highway.world_level">highway-world_level</string>
-    <string name="type.highway.world_towns_level">highway-world_towns_level</string>
 
     <!-- SECTION: Types: Historic -->
     <string name="type.historic">Историјски објекат</string>
@@ -832,6 +831,8 @@
     <string name="type.railway.construction">Пруга у изградњи</string>
     <string name="type.railway.crossing">Пружни прелаз</string>
     <string name="type.railway.disused">Напуштена пруга</string>
+    <string name="type.railway.disused.bridge">Напуштен железнички мост</string>
+    <string name="type.railway.disused.tunnel">Напуштен железнички тунел</string>
     <string name="type.railway.funicular">Успињача</string>
     <string name="type.railway.funicular.bridge">Мост успињаче</string>
     <string name="type.railway.funicular.tunnel">Тунел успињаче</string>

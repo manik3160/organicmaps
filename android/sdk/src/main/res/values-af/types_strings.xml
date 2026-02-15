@@ -322,6 +322,7 @@
     <string name="type.cuisine.tea">Tee</string>
     <string name="type.cuisine.thai">Thai</string>
     <string name="type.cuisine.turkish">Turks</string>
+    <string name="type.cuisine.uzbek">Oesbekies</string>
     <string name="type.cuisine.vegan">Veganisties</string>
     <string name="type.cuisine.vegetarian">Vegetaries</string>
     <string name="type.cuisine.vietnamese">Viëtnamees</string>
@@ -785,6 +786,8 @@
     <string name="type.railway.construction">Spoorweg in aanbou</string>
     <string name="type.railway.crossing">Spoorwegoorgang</string>
     <string name="type.railway.disused">Ongebruikte spoor</string>
+    <string name="type.railway.disused.bridge">Ongebruikte spoorbrug</string>
+    <string name="type.railway.disused.tunnel">Ongebruikte treintonnel</string>
     <string name="type.railway.funicular">Kabelspoor</string>
     <string name="type.railway.funicular.bridge">Kabelspoorbrug</string>
     <string name="type.railway.funicular.tunnel">Kabelspoortonnel</string>

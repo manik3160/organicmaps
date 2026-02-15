@@ -95,7 +95,7 @@
     <!-- Error moving map files from one storage to another -->
     <string name="move_maps_error">Errur waqt it-tmexxija tal-fajls tal-mapep</string>
     <!-- Ask user to wait several minutes (some long process in modal dialog). -->
-    <string name="wait_several_minutes">Din tista tieħu diversi minuti. \nJekk jogħġbok stenna…</string>
+    <string name="wait_several_minutes">Din tista tieħu diversi minuti.\nJekk jogħġbok stenna…</string>
     <!-- Measurement units title in settings activity -->
     <string name="measurement_units">Unitajiet tal-kejl</string>
     <!-- Detailed description of Measurement Units settings button -->
@@ -201,8 +201,10 @@
     <!-- Settings information group in settings screen -->
     <string name="prefs_group_information">Informazzjoni</string>
     <string name="prefs_group_route">Navigazzjoni</string>
-    <string name="pref_zoom_title">Buttuni taż-żum</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">Il-buttuni + u - fuq il-mappa</string>
     <string name="pref_zoom_summary">Uri fuq il-mappa</string>
+    <string name="pref_auto_night_in_navigation_title">Stil bil-lejl meta tkun qed tinnaviga fid-dlam</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">Il-mod ta’ bil-lejl</string>
     <!-- Generic «Off» string -->
@@ -332,6 +334,8 @@
     <string name="gray">Griż</string>
     <!-- blue gray color -->
     <string name="blue_gray">Blu Griż</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">Dehra</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">Agħti mapep b\'xejn u bla reklami lil miljuni ta\' utenti!</string>
 
@@ -630,8 +634,12 @@
     <string name="bookmarks_empty_list_title">Din il-lista hija vojta</string>
     <string name="bookmarks_empty_list_message">Biex iżżid bookmark, għafas post fuq il-mappa u mbagħad għafas is-simbolu tal-istilla</string>
     <string name="category_desc_more">…aktar</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">Esporta KMZ</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">Esporta GPX</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">Esporta GeoJSON</string>
     <string name="delete_list">Ħassar il-lista</string>
     <string name="speedcams_alert_title">Kameras tal-veloċita</string>
     <string name="place_description_title">Deskrizzjoni tal-Post</string>
@@ -831,4 +839,12 @@
     <string name="uri_open_location_failed">Ebda applikazzjoni installata li tista’ tiftaħ il-post</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Auto fin-navigazzjoni</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">Segwi s-sistema</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">Login bil-password</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">Login billi tuża l-browser</string>
 </resources>

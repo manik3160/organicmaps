@@ -201,8 +201,10 @@
     <!-- Settings information group in settings screen -->
     <string name="prefs_group_information">Information</string>
     <string name="prefs_group_route">Navigering</string>
-    <string name="pref_zoom_title">Zoom-knappar</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">Knapparna + och - på kartan</string>
     <string name="pref_zoom_summary">Visa på kartan</string>
+    <string name="pref_auto_night_in_navigation_title">Nattstil när du navigerar i mörkret</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">Nattläge</string>
     <!-- Generic «Off» string -->
@@ -336,6 +338,12 @@
     <string name="gray">Grå</string>
     <!-- blue gray color -->
     <string name="blue_gray">Ljusblå grå</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">Utseende</string>
+    <!-- Settings "Appearance" category: "Light" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_light">Ljust</string>
+    <!-- Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_dark">Mörkt</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">Ge bort gratis kartor utan annonser till miljontals användare!</string>
 
@@ -641,8 +649,12 @@
     <string name="bookmarks_empty_list_title">Listan är tom</string>
     <string name="bookmarks_empty_list_message">För att lägga till bokmärken, tryck på kartan och sedan på stjärnikonen</string>
     <string name="category_desc_more">…mer</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">Exportera KMZ</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">Exportera GPX</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">Exportera GeoJSON</string>
     <string name="delete_list">Radera listan</string>
     <string name="speedcams_alert_title">Hastighetskameror</string>
     <string name="place_description_title">Beskrivning av platsen</string>
@@ -773,7 +785,7 @@
     <!-- Instagram account url for the "?" About page -->
     <string name="instagram_url">https://www.instagram.com/organicmaps.app</string>
     <!-- A link to the TTS FAQ -->
-    <string name="tts_info_link">https://organicmaps.app/faq/text-to-speech-android-tts/</string>
+    <string name="tts_info_link">https://organicmaps.app/sv/faq/voice/text-to-speech-android-tts/</string>
     <!-- Include only languages supported on the website, add new translations here: https://github.com/organicmaps/website/tree/master/content -->
     <string name="translated_om_site_url">https://organicmaps.app/sv/</string>
     <!-- Link to OSM wiki for Editor, Profile and About pages -->
@@ -868,8 +880,16 @@
     <string name="uri_open_location_failed">Ingen app installerad som kan öppna platsen</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Auto i navigering</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">Följ systemet</string>
     <!-- Title of the bottom sheet when sharing the track -->
     <string name="share_track">Dela spår</string>
     <!-- Title for the dialog when deleting a track with the track name passed in %@ -->
     <string name="delete_track_dialog_title">Radera %s?</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">Logga in med lösenord</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">Logga in med hjälp av webbläsare</string>
 </resources>

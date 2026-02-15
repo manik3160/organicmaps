@@ -201,8 +201,10 @@
     <!-- Settings information group in settings screen -->
     <string name="prefs_group_information">Bilgi</string>
     <string name="prefs_group_route">Navigasyon</string>
-    <string name="pref_zoom_title">Yakınlaştırma düğmeleri</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">Haritadaki + ve - düğmeleri</string>
     <string name="pref_zoom_summary">Haritada göster</string>
+    <string name="pref_auto_night_in_navigation_title">Karanlıkta navigasyon yaparken gece stili</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">Gece Modu</string>
     <!-- Generic «Off» string -->
@@ -336,6 +338,12 @@
     <string name="gray">Gri</string>
     <!-- blue gray color -->
     <string name="blue_gray">Mavi Gri</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">Görünüm</string>
+    <!-- Settings "Appearance" category: "Light" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_light">Açık</string>
+    <!-- Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_dark">Koyu</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">Milyonlarca kullanıcıya reklamsız ve ücretsiz haritalar hediye edin!</string>
 
@@ -643,8 +651,12 @@
     <string name="bookmarks_empty_list_title">Bu liste boş</string>
     <string name="bookmarks_empty_list_message">Yer imi eklemek için önce haritadaki bir yere sonrasında ise yıldız simgesine dokunun</string>
     <string name="category_desc_more">…daha fazla</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">KMZ Olarak Dışa Aktar</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">GPX Olarak Dışa Aktar</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">GeoJSON Olarak Dışa Aktar</string>
     <string name="delete_list">Listeyi sil</string>
     <string name="speedcams_alert_title">Hız kameraları</string>
     <string name="place_description_title">Yer Açıklaması</string>
@@ -775,7 +787,7 @@
     <!-- Instagram account url for the "?" About page -->
     <string name="instagram_url">https://www.instagram.com/organicmapstr</string>
     <!-- A link to the TTS FAQ -->
-    <string name="tts_info_link">https://organicmaps.app/faq/text-to-speech-android-tts/</string>
+    <string name="tts_info_link">https://organicmaps.app/tr/faq/voice/text-to-speech-android-tts/</string>
     <!-- Include only languages supported on the website, add new translations here: https://github.com/organicmaps/website/tree/master/content -->
     <string name="translated_om_site_url">https://organicmaps.app/tr/</string>
     <!-- Link to OSM wiki for Editor, Profile and About pages -->
@@ -870,8 +882,16 @@
     <string name="uri_open_location_failed">Konumu açabilecek kurulu uygulama yok</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Navigasyonda kendiliğinden</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">Sistemi takip et</string>
     <!-- Title of the bottom sheet when sharing the track -->
     <string name="share_track">İz Paylaş</string>
     <!-- Title for the dialog when deleting a track with the track name passed in %@ -->
     <string name="delete_track_dialog_title">%s Silinsin Mi?</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">Şifre ile giriş yapın</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">Tarayıcı kullanarak giriş yapın</string>
 </resources>

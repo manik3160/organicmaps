@@ -196,7 +196,9 @@
 "length" = "Länge";
 "share_my_location" = "Meinen Standort teilen";
 "prefs_group_route" = "Navigation";
-"pref_zoom_title" = "Zoom-Tasten";
+
+/* Setting name which enables or disables zoom buttons on the map screen. */
+"pref_zoom_title" = "„+“ und „-“ Knöpfe auf der Karte";
 
 /* Generic «Off» string */
 "off" = "Aus";
@@ -217,7 +219,7 @@
 "pref_map_3d_buildings_disabled_summary" = "3D-Gebäude werden im Energiesparmodus ausgeschaltet";
 
 /* Settings «Route» category: «Tts enabled» title */
-"pref_tts_enable_title" = "Sprachführung";
+"pref_tts_enable_title" = "Sprachanweisungen";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "Straßennamen ankündigen";
@@ -226,10 +228,10 @@
 "pref_tts_street_names_description" = "Wenn aktiviert, wird der Name der Straße oder Ausfahrt, in die abgebogen werden soll, laut angekündigt.";
 
 /* Settings «Route» category: «Tts language» title */
-"pref_tts_language_title" = "Sprache für Sprachführung";
+"pref_tts_language_title" = "Sprache für Sprachanweisungen";
 
 /* Settings «Route» category: «Test Voice Directions» title */
-"pref_tts_test_voice_title" = "Teste Sprachanweisungen (TTS, Text-To-Speech)";
+"pref_tts_test_voice_title" = "Sprachanweisungen testen(TTS, Text-To-Speech)";
 "pref_map_auto_zoom" = "Auto-Zoom";
 "placepage_distance" = "Entfernung";
 "search_show_on_map" = "Auf der Karte ansehen";
@@ -648,8 +650,15 @@
 "button_layer_cycling" = "Fahrradrouten";
 "button_layer_subway" = "U-Bahn";
 "layers_title" = "Kartenstile und Ebenen";
+
+/* Menu title for exporting a file in the default KMZ format */
 "export_file" = "KMZ exportieren";
+
+/* Menu title for exporting a file in GPX format */
 "export_file_gpx" = "GPX exportieren";
+
+/* Menu title for exporting a file in GeoJSON format */
+"export_file_geojson" = "GeoJSON exportieren";
 "delete_list" = "Liste löschen";
 "speedcams_alert_title" = "Blitzer";
 "place_description_title" = "Ortsbeschreibung";
@@ -669,7 +678,7 @@
 "power_managment_setting_manual_max" = "Maximale Stromsparung";
 
 /* Settings/Bookmark Text Placement */
-"bookmarks_text_placement_title" = "Markiere Namen auf der Karte";
+"bookmarks_text_placement_title" = "Lesezeichenname auf der Karte mit anzeigen";
 "bookmarks_text_placement_description" = "Wenn du zu viele Lesezeichen hast, kann es sein, dass die App langsamer wird, wenn die Namen auf der Karte angezeigt werden.";
 "show_to_the_right" = "Rechts anzeigen";
 "show_at_the_bottom" = "Unten anzeigen";
@@ -1096,4 +1105,14 @@
 "subway_data_unavailable" = "Die U-Bahnkarte steht nicht zur Verfügung";
 
 /* Settings/Highlight downloaded regions on the map */
-"show_downloaded_regions" = "Lila heruntergeladene Regionen";
+"show_downloaded_regions" = "Heruntergeladene Regionen farblich markieren";
+
+
+/********** gps strings **********/
+
+
+/* Login to OSM button text */
+"login_osm_credentials" = "Anmeldung mit Passwort";
+
+/* Login to OSM button text */
+"login_osm_browser" = "Anmeldung über den Browser";

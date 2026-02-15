@@ -201,8 +201,10 @@
     <!-- Settings information group in settings screen -->
     <string name="prefs_group_information">Informācija</string>
     <string name="prefs_group_route">Navigācija</string>
-    <string name="pref_zoom_title">Tālummaiņas pogas</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">Pogas \"+\" un \"-\" kartē</string>
     <string name="pref_zoom_summary">Rādīt kartē</string>
+    <string name="pref_auto_night_in_navigation_title">Nakts stils, ja navigācija notiek tumsā</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">Tumšais motīvs</string>
     <!-- Generic «Off» string -->
@@ -336,6 +338,12 @@
     <string name="gray">Pelēka</string>
     <!-- blue gray color -->
     <string name="blue_gray">Zilpelēka</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">Izskats</string>
+    <!-- Settings "Appearance" category: "Light" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_light">Gaišs</string>
+    <!-- Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_dark">Tumšs</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">Dāviniet bezmaksas kartes bez reklāmām miljoniem lietotāju!</string>
 
@@ -644,8 +652,12 @@
     <string name="bookmarks_empty_list_title">Saraksts ir tukšs</string>
     <string name="bookmarks_empty_list_message">Lai pievienotu grāmatzīmi, sākumā spiediet uz vietas kartē, bet tad uz zvaigznītes ikonas</string>
     <string name="category_desc_more">…vairāk</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">Izgūt KMZ formātā</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">Izgūt GPX formātā</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">Izgūt GeoJSON formātā</string>
     <string name="delete_list">Dzēst sarakstu</string>
     <string name="speedcams_alert_title">Fotoradari</string>
     <string name="place_description_title">Vietas apraksts</string>
@@ -867,8 +879,16 @@
     <string name="uri_open_location_failed">Nav uzstādīta neviena lietotne, kas varētu atvērt atrašanās vietu</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Automātisks navigācijas laikā</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">Sekot sistēmai</string>
     <!-- Title of the bottom sheet when sharing the track -->
     <string name="share_track">Koplietošanas trase</string>
     <!-- Title for the dialog when deleting a track with the track name passed in %@ -->
     <string name="delete_track_dialog_title">Dzēst %s?</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">Pieteikšanās ar paroli</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">Pieteikšanās, izmantojot pārlūkprogrammu</string>
 </resources>

@@ -290,6 +290,7 @@
     <string name="type.cuisine.tea">Teh</string>
     <string name="type.cuisine.thai">Masakan thailand</string>
     <string name="type.cuisine.turkish">Masakan turki</string>
+    <string name="type.cuisine.uzbek">Uzbek</string>
     <string name="type.cuisine.vegan">Masakan vegan</string>
     <string name="type.cuisine.vegetarian">Masakan vegetarian</string>
     <string name="type.cuisine.vietnamese">Masakan vietnam</string>
@@ -682,6 +683,7 @@
     <string name="type.power.substation">Stasiun bawah tanah</string>
     <!-- A tower or pylon carrying high voltage electricity cables. -->
     <string name="type.power.tower">Menara listrik</string>
+    <string name="type.railway.disused.tunnel">Terowongan kereta api nonaktif</string>
     <string name="type.railway.funicular">Kereta gantung</string>
     <string name="type.railway.halt">Rel kereta api</string>
     <string name="type.railway.level_crossing">Perlintasan Kereta Api</string>

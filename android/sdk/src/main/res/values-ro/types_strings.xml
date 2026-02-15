@@ -293,6 +293,7 @@
     <string name="type.cuisine.tea">Ceai</string>
     <string name="type.cuisine.thai">Bucătărie tailandeză</string>
     <string name="type.cuisine.turkish">Bucătărie turcă</string>
+    <string name="type.cuisine.uzbek">Uzbecă</string>
     <string name="type.cuisine.vegan">Bucătărie vegană</string>
     <string name="type.cuisine.vegetarian">Bucătărie vegetariană</string>
     <string name="type.cuisine.vietnamese">Bucătărie vietnameză</string>
@@ -651,7 +652,7 @@
     <string name="type.place.city.capital.8">Municipiu</string>
     <string name="type.place.city.capital.9">Municipiu</string>
     <string name="type.place.continent">Continent</string>
-    <string name="type.place.country">Continent</string>
+    <string name="type.place.country">Țară</string>
     <string name="type.place.county">Județ</string>
     <string name="type.place.farm">Fermă</string>
     <string name="type.place.hamlet">Cătun</string>
@@ -686,6 +687,7 @@
     <string name="type.power.substation">Stație subterană</string>
     <!-- A tower or pylon carrying high voltage electricity cables. -->
     <string name="type.power.tower">Stâlp de electricitate</string>
+    <string name="type.railway.disused.tunnel">Tunel feroviar dezafectat</string>
     <string name="type.railway.funicular">Funicular</string>
     <string name="type.railway.halt">Gară</string>
     <string name="type.railway.level_crossing">Trecere feroviară</string>

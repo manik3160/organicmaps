@@ -55,7 +55,7 @@
     <string name="disconnect_usb_cable">Вимкніть USB кабель або вставте SD-карту</string>
     <!-- Used in DownloadResources startup screen -->
     <string name="not_enough_free_space_on_sdcard">Недостатньо вільного місця на SD карті / в пам\'яті пристрою для використання програми</string>
-    <string name="download_resources">Перш ніж розпочати, дозвольте нам завантажити оглядову мапу світу на ваш пристрій. \nВона потребує %s даних.</string>
+    <string name="download_resources">Перш ніж почати користуватися додатком, завантажте оглядову карту світу на свій пристрій.\nВона використовуватиме %s пам’яті.</string>
     <string name="download_resources_continue">Перейти на мапу</string>
     <string name="downloading_country_can_proceed">Поки завантажується %s\nви можете користуватися програмою.</string>
     <string name="download_country_ask">Завантажити %s?</string>
@@ -201,8 +201,10 @@
     <!-- Settings information group in settings screen -->
     <string name="prefs_group_information">Інформація</string>
     <string name="prefs_group_route">Навігація</string>
-    <string name="pref_zoom_title">Кнопки трансфокації</string>
+    <!-- Setting name which enables or disables zoom buttons on the map screen. -->
+    <string name="pref_zoom_title">Кнопки «+» і «-» на мапі</string>
     <string name="pref_zoom_summary">Відображення на екрані</string>
+    <string name="pref_auto_night_in_navigation_title">Нічний стиль під час навігації в темряві</string>
     <!-- Settings «Map» category: «Night style» title -->
     <string name="pref_map_style_title">Нічний режим</string>
     <!-- Generic «Off» string -->
@@ -295,7 +297,7 @@
     <!-- Preference text -->
     <string name="pref_use_google_play">Швидке визначення приблизного місця розташування за допомогою Bluetooth, WiFi або мобільної мережі</string>
     <!-- Text for routing error dialog -->
-    <string name="routing_download_maps_along">Завантажити мапи з дороги</string>
+    <string name="routing_download_maps_along">Завантажити мапи вздовж маршруту</string>
     <!-- Text for routing error dialog -->
     <string name="routing_requires_all_map">Для створення маршруту необхідно щоб всі мапи, починаючи від вашого місцезнаходження і до пункту призначення, були завантажені та оновлені.</string>
     <!-- Text for routing error dialog -->
@@ -336,6 +338,12 @@
     <string name="gray">Сірий</string>
     <!-- blue gray color -->
     <string name="blue_gray">Сіро-блакитний</string>
+    <!-- Settings «Map» category: «Appearance» title -->
+    <string name="pref_appearance_title">Вигляд</string>
+    <!-- Settings "Appearance" category: "Light" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_light">Світлий</string>
+    <!-- Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. -->
+    <string name="pref_appearance_dark">Темний</string>
     <!-- Tex label above the Donate button -->
     <string name="donate_description">Подаруйте мільйонам користувачів безкоштовні мапи без реклами!</string>
 
@@ -407,7 +415,7 @@
     <string name="editor_time_open">Відчинено</string>
     <string name="editor_time_close">Зачинено</string>
     <string name="editor_time_add_closed">Додати перерву</string>
-    <string name="editor_time_title">Час роботи</string>
+    <string name="editor_time_title">Години роботи</string>
     <string name="editor_time_advanced">Розширений режим</string>
     <string name="editor_time_simple">Простий режим</string>
     <string name="editor_hours_closed">Перерва</string>
@@ -530,7 +538,7 @@
     <string name="editor_comment_hint">Коментар…</string>
     <string name="editor_reset_edits_message">Скинути всі локальні виправлення?</string>
     <string name="editor_reset_edits_button">Скинути</string>
-    <string name="editor_remove_place_message">Видалити об\'єкт, що ви додали?</string>
+    <string name="editor_remove_place_message">Видалити доданий об\'єкт?</string>
     <string name="editor_remove_place_button">Видалити</string>
     <string name="editor_place_doesnt_exist">Місце не існує</string>
     <!-- Error message for "Place doesn't exist" dialog when comment is empty -->
@@ -586,7 +594,7 @@
     <!-- User selected the start of a route by pressing Route From. Now the destination of a route should be selected using search or by tapping on the map and then pressing "Route To". -->
     <string name="routing_add_finish_point">Скористайтеся пошуком, виберіть мітку, або торкніться мапи, щоб додати пункт призначення</string>
     <string name="planning_route_manage_route">Редагування маршруту</string>
-    <string name="button_plan">Прокласти маршрут</string>
+    <string name="button_plan">Маршрут</string>
     <string name="placepage_remove_stop">Видалити зупинку</string>
     <string name="placepage_add_stop">Додати зупинку</string>
     <string name="saved">Збережено</string>
@@ -608,7 +616,7 @@
     </plurals>
     <string name="bookmarks_create_new_group">Створити новий список</string>
     <!-- Bookmark categories screen, button that opens folder selection dialog to import KML/KMZ/GPX/KMB files -->
-    <string name="bookmarks_import">Імпортувати мітки та маршрути</string>
+    <string name="bookmarks_import">Імпорт міток та маршрутів</string>
     <string name="bookmarks_error_message_share_general">Неможливо поділитися через помилку програми</string>
     <string name="bookmarks_error_title_share_empty">Помилка обміну</string>
     <string name="bookmarks_error_message_share_empty">Неможливо поділитися пустим списком</string>
@@ -648,8 +656,12 @@
     <string name="bookmarks_empty_list_title">Список порожній</string>
     <string name="bookmarks_empty_list_message">Щоб додати нову мітку, натисніть на значок зірочки в картці об’єкта</string>
     <string name="category_desc_more">…ще</string>
+    <!-- Menu title for exporting a file in the default KMZ format -->
     <string name="export_file">Експорт KMZ</string>
+    <!-- Menu title for exporting a file in GPX format -->
     <string name="export_file_gpx">Експорт GPX</string>
+    <!-- Menu title for exporting a file in GeoJSON format -->
+    <string name="export_file_geojson">Експорт GeoJSON</string>
     <string name="delete_list">Видалити список</string>
     <string name="speedcams_alert_title">Камери швидкості</string>
     <string name="place_description_title">Опис місця</string>
@@ -737,7 +749,7 @@
     <string name="parkings">Парковки</string>
     <string name="fuel_places">Заправки</string>
     <string name="medicine">Медицина</string>
-    <string name="search_in_the_list">Шукати в списку</string>
+    <string name="search_in_the_list">Пошук у списку</string>
     <string name="religious_places">Святі місця</string>
     <string name="select_list">Обрати список</string>
     <string name="transit_not_found">Навігація на метро ще недоступна в цьому регіоні</string>
@@ -780,7 +792,7 @@
     <!-- Instagram account url for the "?" About page -->
     <string name="instagram_url">https://www.instagram.com/organicmaps.app</string>
     <!-- A link to the TTS FAQ -->
-    <string name="tts_info_link">https://organicmaps.app/faq/text-to-speech-android-tts/</string>
+    <string name="tts_info_link">https://organicmaps.app/uk/faq/voice/text-to-speech-android-tts/</string>
     <!-- Include only languages supported on the website, add new translations here: https://github.com/organicmaps/website/tree/master/content -->
     <string name="translated_om_site_url">https://organicmaps.app/uk/</string>
     <!-- Link to OSM wiki for Editor, Profile and About pages -->
@@ -875,8 +887,16 @@
     <string name="uri_open_location_failed">Не встановлено застосунок, який може відкрити розташування</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Авто в навігації</string>
+    <!-- Setting option to sync the app's theme with the operating system's dark/light mode -->
+    <string name="follow_system">Як у сістэмі</string>
     <!-- Title of the bottom sheet when sharing the track -->
     <string name="share_track">Поділитися треком</string>
     <!-- Title for the dialog when deleting a track with the track name passed in %@ -->
     <string name="delete_track_dialog_title">Видалити %s?</string>
+
+    <!-- SECTION: gps strings -->
+    <!-- Login to OSM button text -->
+    <string name="login_osm_credentials">Вхід за допомогою пароля</string>
+    <!-- Login to OSM button text -->
+    <string name="login_osm_browser">Вхід через браузер</string>
 </resources>

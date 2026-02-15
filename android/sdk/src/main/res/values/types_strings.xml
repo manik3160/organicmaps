@@ -351,6 +351,7 @@
     <string name="type.cuisine.tea">Tea</string>
     <string name="type.cuisine.thai">Thai</string>
     <string name="type.cuisine.turkish">Turkish</string>
+    <string name="type.cuisine.uzbek">Uzbek</string>
     <string name="type.cuisine.vegan">Vegan</string>
     <string name="type.cuisine.vegetarian">Vegetarian</string>
     <string name="type.cuisine.vietnamese">Vietnamese</string>
@@ -871,6 +872,8 @@
     <string name="type.railway.construction">Railway Construction</string>
     <string name="type.railway.crossing">Railway Crossing</string>
     <string name="type.railway.disused">Disused Railway</string>
+    <string name="type.railway.disused.bridge">Disused Railway Bridge</string>
+    <string name="type.railway.disused.tunnel">Disused Railway Tunnel</string>
     <string name="type.railway.funicular">Funicular</string>
     <string name="type.railway.funicular.bridge">Funicular Bridge</string>
     <string name="type.railway.funicular.tunnel">Funicular Tunnel</string>

@@ -4,6 +4,7 @@ import android.animation.ValueAnimator;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -54,7 +55,6 @@ public class PlacePageController
   private static final String PLACE_PAGE_BUTTONS_FRAGMENT_TAG = "PLACE_PAGE_BUTTONS";
   private static final String PLACE_PAGE_FRAGMENT_TAG = "PLACE_PAGE";
 
-  private static final float PREVIEW_PLUS_RATIO = 0.45f;
   private BottomSheetBehavior<View> mPlacePageBehavior;
   private NestedScrollView mPlacePage;
   private ViewGroup mPlacePageContainer;
@@ -196,15 +196,43 @@ public class PlacePageController
           (ViewGroup.MarginLayoutParams) mPlacePageStatusBarBackground.getLayoutParams();
       // Layout calculations are heavy so we compute them once then move the view from behind the place page to the
       // status bar
-      layoutParams.height = insets.top;
-      layoutParams.width = mPlacePage.getWidth();
-      // Make sure the view is centered within the insets as is the place page
-      layoutParams.setMargins(insets.left, 0, insets.right, 0);
-      mPlacePageStatusBarBackground.setLayoutParams(layoutParams);
+      boolean needsUpdate = layoutParams.height != insets.top || layoutParams.width != mPlacePage.getWidth()
+                         || layoutParams.leftMargin != insets.left || layoutParams.rightMargin != insets.right;
+      if (needsUpdate)
+      {
+        layoutParams.height = insets.top;
+        layoutParams.width = mPlacePage.getWidth();
+        layoutParams.setMargins(insets.left, 0, insets.right, 0);
+        mPlacePageStatusBarBackground.setLayoutParams(layoutParams);
+      }
+
       return windowInsets;
     });
 
     ViewCompat.requestApplyInsets(mPlacePage);
+    // if landscape then layout contains pp_bottom_container
+    final View ppBottomContainer = activity.findViewById(R.id.pp_bottom_container);
+    if (ppBottomContainer != null)
+    {
+      ViewCompat.setOnApplyWindowInsetsListener(ppBottomContainer, (v, insets) -> {
+        Insets horizontalInsets =
+            insets.getInsets(WindowInsetsCompat.Type.systemBars() | WindowInsetsCompat.Type.displayCutout());
+        v.setPadding(horizontalInsets.left, v.getPaddingTop(), horizontalInsets.right, 0);
+        return insets;
+      });
+    }
+    mPlacePage.addOnLayoutChangeListener((v, left, top, right, bottom, oldLeft, oldTop, oldRight, oldBottom) -> {
+      final int topInset = mCurrentWindowInsets.getInsets(WindowInsetsCompat.Type.systemBars()).top;
+      if (mPlacePage.getHeight() >= mCoordinator.getHeight() - topInset)
+      {
+        mPlacePageDistanceToTopObserver.onChanged(oldTop);
+      }
+      if (top != oldTop)
+      {
+        mDistanceToTop = oldTop;
+        mViewModel.setPlacePageDistanceToTop(mDistanceToTop);
+      }
+    });
   }
 
   @NonNull
@@ -377,9 +405,19 @@ public class PlacePageController
 
   private int calculatePeekHeight()
   {
+    final int bottomInsets = (mCurrentWindowInsets != null)
+                               ? mCurrentWindowInsets.getInsets(WindowInsetsCompat.Type.systemBars()).bottom
+                               : 0;
+    final boolean isLandscape = getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE;
+    final int bottomMargins = getResources().getDimensionPixelSize(R.dimen.margin_double);
+    final View plusDetailsContainer = mPlacePage.findViewById(R.id.plus_details);
+    int peekHeight = mPreviewHeight + mButtonsHeight + bottomMargins;
     if (mMapObject != null && mMapObject.getOpeningMode() == MapObject.OPENING_MODE_PREVIEW_PLUS)
-      return (int) (mCoordinator.getHeight() * PREVIEW_PLUS_RATIO);
-    return mPreviewHeight + mButtonsHeight;
+    {
+      peekHeight += plusDetailsContainer.getHeight();
+    }
+    return Math.min(peekHeight + (isLandscape ? bottomInsets : 0),
+                    (mCoordinator.getHeight() - (mPlacePageStatusBarBackground.getHeight())));
   }
 
   @Override
@@ -390,7 +428,12 @@ public class PlacePageController
     mViewModel.setPlacePageWidth(mPlacePage.getWidth());
     mPlacePageStatusBarBackground.getLayoutParams().width = mPlacePage.getWidth();
     // Make sure to update the peek height on the UI thread to prevent weird animation jumps
+    // TODO(AB): Investigate if this post is still necessary.
     mPlacePage.post(() -> {
+      // Fragment may be detached when posting the runnable.
+      if (!isAdded())
+        return;
+
       setPeekHeight();
       if (mShouldCollapse && !PlacePageUtils.isCollapsedState(mPlacePageBehavior.getState()))
       {
